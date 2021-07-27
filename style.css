@@ -1,18 +1,101 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     margin: 0;
+    /*background-color: rgb(254, 255, 233);*/
+}
+
+#navigation {
+    text-align: center;
+    background-color: #516C77;
 }
 
 #navigation a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
-    margin: 0px;
-    padding: 100px;
+    padding: 10px 100px;
     color: rgb(255, 255, 255);
+    width: 100px;
+    display: inline-block;
 }
-
-#navigation {
+#navigation a:hover{
+    background-color: #3F555D;
+}
+.new-color{
+    color: #1E81DD;
+}
+#repeat{
+    padding-left: 40%;
+   margin-top: -7%; 
+   display: block; 
+}
+#intro h1{
+    color: #DC3A1E;
+    font-size: 60px;
+}
+#intro p{
+    font-size: 20px;
+}
+#intro{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    margin: 0 70px 0 70px;
+}
+.half-width img{
+    width: 100%;
+    border: 12px solid #DC3A1E;
+    border-radius: 15px;
+    margin: 20px 0px 0px 0px;
+}
+.half-width a{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 40%;
+}
+.button{
+    background-image: linear-gradient(to left,#DE2A1F, #DE8C1F);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#about-us{
+    display: flex;
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about-us h1{
+    color: #DC3A1E;
+    font-size: 60px;
     text-align: center;
-    background-color: blueviolet;
+}
+#recipies{
+    margin: 10px 40px;
+}
+#recipies h1{
+font-size: 50px;
+color: #6a5acd;
+}
+#recipie-desc{
+    text-align: center;
+}
+#recipie-desc p{
+    margin-top: -20px;
+}
+#triple-pic{
+    display: flex;
+}
+#triple-pic img{
+    width: 100%;
+    height: 300px;
+}
+.recipie-pic{
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 1px 1px 20px rgb(212, 209, 209);
+    border-radius: 25px;
 }
