@@ -38,7 +38,7 @@ body h1{
 
 #repeat {
     padding-left: 40%;
-    margin-top: -7%;
+    margin-top: -10%;
     display: block;
 }
 
@@ -50,6 +50,7 @@ body h1{
 
 #intro {
     display: flex;
+    text-align: justify;
 }
 
 .half-width {
@@ -84,6 +85,7 @@ body h1{
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: justify;
 }
 
 #about-us h1 {
@@ -105,7 +107,7 @@ body h1{
 }
 
 #recipie-desc p {
-    margin-top: -20px;
+    margin-top: -25px;
     font-size: 20px;
 }
 
@@ -124,6 +126,8 @@ body h1{
 }
 #triple-pic p {
     font-size: 15px;
+    margin:-10px;
+    text-align: justify;
 }
 
 .recipie-pic {
