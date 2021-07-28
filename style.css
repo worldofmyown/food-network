@@ -99,3 +99,33 @@ color: #6a5acd;
     box-shadow: 1px 1px 20px rgb(212, 209, 209);
     border-radius: 25px;
 }
+#vlog h1{
+    color: #DC3A1E;
+    font-size: 50px;
+}
+#vlog{
+    text-align: center;
+    background-image: url(images/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 30px;
+}
+#vlog iframe{
+    border: 10px solid slateblue;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    background-color: #293241;
+    padding: 3%;
+}
+footer h1{
+    color: #1F78FF;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+footer p{
+    color: #C2DAFF;
+    font-size: 15px;
+    text-transform:capitalize;
+}
