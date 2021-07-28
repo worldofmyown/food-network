@@ -1,7 +1,11 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     margin: 0;
-    /*background-color: rgb(254, 255, 233);*/
+    /*background-color: white;*/
+}
+
+body p {
+    color: #646464
 }
 
 #navigation {
@@ -18,114 +22,148 @@ body {
     width: 100px;
     display: inline-block;
 }
-#navigation a:hover{
+
+#navigation a:hover {
     background-color: #3F555D;
 }
-.new-color{
+
+.new-color {
     color: #1E81DD;
 }
-#repeat{
+
+#repeat {
     padding-left: 40%;
-   margin-top: -7%; 
-   display: block; 
+    margin-top: -7%;
+    display: block;
 }
-#intro h1{
+
+#intro h1 {
     color: #DC3A1E;
     font-size: 60px;
 }
-#intro p{
+
+#intro p {
     font-size: 20px;
 }
-#intro{
+
+#intro {
     display: flex;
 }
-.half-width{
+
+.half-width {
     width: 40%;
     margin: 0 70px 0 70px;
 }
-.half-width img{
+
+.half-width img {
     width: 100%;
     border: 12px solid #DC3A1E;
     border-radius: 15px;
     margin: 20px 0px 0px 0px;
 }
-.half-width a{
+
+.half-width a {
     margin-top: 20px;
     display: inline-block;
     margin-left: 40%;
 }
-.button{
-    background-image: linear-gradient(to left,#DE2A1F, #DE8C1F);
+
+.button {
+    background-image: linear-gradient(to left, #DE2A1F, #DE8C1F);
     padding: 10px;
     text-decoration: none;
     color: white;
     border-radius: 5px;
     font-size: 18px;
 }
-#about-us{
+
+#about-us {
     display: flex;
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#about-us h1{
+
+#about-us h1 {
     color: #DC3A1E;
     font-size: 60px;
     text-align: center;
 }
-#recipies{
+
+#about-us p {
+    font-size: 20px;
+}
+
+#recipies {
     margin: 10px 40px;
 }
-#recipies h1{
-font-size: 50px;
-color: #6a5acd;
+
+#recipies h1 {
+    font-size: 50px;
+    color: #6a5acd;
 }
-#recipie-desc{
+
+#recipie-desc {
     text-align: center;
 }
-#recipie-desc p{
+
+#recipie-desc p {
     margin-top: -20px;
+    font-size: 20px;
 }
-#triple-pic{
+
+#triple-pic {
     display: flex;
 }
-#triple-pic img{
+
+#triple-pic img {
     width: 100%;
     height: 300px;
 }
-.recipie-pic{
+
+#triple-pic h3 {
+    color: #DC3A1E;
+}
+
+.recipie-pic {
     padding: 30px;
     margin: 10px;
     box-shadow: 1px 1px 20px rgb(212, 209, 209);
     border-radius: 25px;
 }
-#vlog h1{
+
+#vlog h1 {
     color: #DC3A1E;
     font-size: 50px;
 }
-#vlog{
+
+#vlog {
     text-align: center;
     background-image: url(images/Frame\ 56.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-bottom: 30px;
 }
-#vlog iframe{
+
+#vlog iframe {
     border: 10px solid slateblue;
     border-radius: 5px;
 }
-footer{
+
+footer {
     text-align: center;
     background-color: #293241;
     padding: 3%;
 }
-footer h1{
+
+footer h1 {
     color: #1F78FF;
     font-size: 20px;
     text-transform: uppercase;
 }
-footer p{
+
+footer p {
     color: #C2DAFF;
     font-size: 15px;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
